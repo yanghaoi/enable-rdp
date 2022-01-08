@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enablerdp", "enablerdp.vcxproj", "{9FFE67B5-3D56-4842-A41D-AD29A6D82332}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FFE67B5-3D56-4842-A41D-AD29A6D82332}.Debug|x64.ActiveCfg = Debug|x64
+		{9FFE67B5-3D56-4842-A41D-AD29A6D82332}.Debug|x64.Build.0 = Debug|x64
+		{9FFE67B5-3D56-4842-A41D-AD29A6D82332}.Debug|x86.ActiveCfg = Debug|Win32
+		{9FFE67B5-3D56-4842-A41D-AD29A6D82332}.Debug|x86.Build.0 = Debug|Win32
+		{9FFE67B5-3D56-4842-A41D-AD29A6D82332}.Release|x64.ActiveCfg = Release|x64
+		{9FFE67B5-3D56-4842-A41D-AD29A6D82332}.Release|x64.Build.0 = Release|x64
+		{9FFE67B5-3D56-4842-A41D-AD29A6D82332}.Release|x86.ActiveCfg = Release|Win32
+		{9FFE67B5-3D56-4842-A41D-AD29A6D82332}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0E9B1A5-A3BA-4D58-ACC1-DED95436FBC2}
+	EndGlobalSection
+EndGlobal
