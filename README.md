@@ -36,7 +36,12 @@ This toool Enable RDP and set firewall by Windows API.
 ## reference
 
  https://docs.microsoft.com/en-us/windows/win32/api/netfw/nn-netfw-inetfwrule 
+ 
  https://docs.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-osversioninfoa 
+ 
  https://docs.microsoft.com/en-us/windows/win32/api/iphlpapi/nf-iphlpapi-gettcptable 
+ 
  https://docs.microsoft.com/en-us/windows/win32/api/netfw/nf-netfw-inetfwpolicy2-get_rules 
+ 
  https://docs.microsoft.com/zh-cn/windows/win32/termserv/detecting-the-terminal-services-environment 
+ 
