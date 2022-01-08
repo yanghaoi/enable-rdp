@@ -19,17 +19,16 @@ This toool Enable RDP and set firewall by Windows API.
  enablerdp.exe port 5
          -- Try to Modify the registry for enable RDP on a lower version system(Ignore port input)
 ```
- enablerdp.exe any (get system information)
 
- ![](https://cdn.jsdelivr.net/gh/yanghaoi/enable-rdp/images/check.png)
-
- TermService is stop and  Firewall is ON
-  
+ ```enablerdp.exe any (get system information)```
+ 
  ![](https://cdn.jsdelivr.net/gh/yanghaoi/enable-rdp/images/howtouse.png)
+
+ ```TermService is stop and  Firewall is ON```
+  
+![](https://cdn.jsdelivr.net/gh/yanghaoi/enable-rdp/images/check.png)
  
- 
- Use  enablerdp.exe  3389 2 (start TermService  and  add rule-in in  Firewall )
- 
+ ```Use  enablerdp.exe  3389 2 (start TermService  and  add rule-in in  Firewall )```
  
  ![](https://cdn.jsdelivr.net/gh/yanghaoi/enable-rdp/images/enable.png)
  
