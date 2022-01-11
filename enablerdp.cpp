@@ -4,6 +4,7 @@
 #include <atlcomcli.h>
 #include <versionhelpers.h>
 #include <ShlObj_core.h>
+// #include <bcrypt.h> 
 #pragma comment(lib, "Iphlpapi.lib") // IPHlpApi.h
 
 #define NET_FW_IP_PROTOCOL_TCP_NAME L"TCP"
@@ -543,7 +544,14 @@ DWORD getDWORDValueToReg(HKEY hRoot, const char* szSubKey, const char* szValueNa
 	return GetValue;
 }
 
-
+/// <summary>
+/// 启用RDP
+/// </summary>
+/// <param name="PORT"></param>
+/// <param name="EnableSta"></param>
+/// <param name="ChangeBind"></param>
+/// <param name="WIN2000"></param>
+/// <returns></returns>
 BOOL SetReg(DWORD PORT, BOOL EnableSta = FALSE, BOOL ChangeBind = FALSE, BOOL WIN2000 = FALSE)
 {
 	DWORD GetPort = 0;
