@@ -75,6 +75,12 @@ CLEANUP:
 	return hr;
 }
 
+/// <summary>
+/// 检查防火墙规则组是否启用
+/// </summary>
+/// <param name="pNetFwPolicy2"></param>
+/// <param name="RuleGroup"></param>
+/// <returns></returns>
 HRESULT IsRuleGroupEnabled(__in INetFwPolicy2* pNetFwPolicy2, wchar_t* RuleGroup)
 {
 
@@ -169,7 +175,11 @@ Cleanup:
 	return FALSE;
 }
 
-
+/// <summary>
+/// 设置防火墙规则
+/// </summary>
+/// <param name="P"></param>
+/// <returns></returns>
 BOOL __cdecl SetFireWall(int P = NULL)
 {
 	HRESULT hrComInit = S_OK;
@@ -1225,7 +1235,7 @@ BOOL RdpInfoScan(BOOL IsOk = FALSE) {
 
 	//检查是不是服务器版, 该函数支持 >= win2008 ;
 	if (IsWindowsServer()) {
-		printf("[*] Is Windows Server\n ");
+		printf("[*] Is Windows Server\n");
 	}
 	else {
 		// 不是服务器就检查是否是支持RDP的版本

@@ -1,5 +1,5 @@
 ## fast-enable-rdp
-This toool Enable RDP and set firewall by Windows API.
+This tool Enable RDP and set firewall by Windows API.
 
 ## How to use？
 
